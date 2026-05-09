@@ -26,7 +26,8 @@
     <section id="sobre">
         <h2>Sobre o Personagem</h2>
 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Star_Wars_-_Darth_Vader.jpg" alt=""title="Imagem do Darth Vader">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Star_Wars_-_Darth_Vader.jpg" alt=""
+            title="Imagem do Darth Vader">
 
         <article>
 
@@ -42,7 +43,7 @@
                 tornando-o um personagem extremamente complexo e humano.
 
                 Darth Vader representa a queda de um herói, mas também a possibilidade de redenção, sendo até hoje um
-                dos maiores vilões da cultura pop. texto teste so para ver se vai
+                dos maiores vilões da cultura pop.
             </p>
 
         </article>
@@ -84,10 +85,35 @@
 
             <p>tem um projeto em mente? Entre em contato.</p>
 
-            <address>
-                Email: <a href="mailto:lucasmeinert78@gmail.com">lucasmeinert78@gmail.com</a> <br>
-                Telefone: <a href="tel:+5548991545434">+5548991545434</a>
-            </address>
+            <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select> <br>
+
+                <label for="mensagem">Mensagem: </label> 
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5" required></textarea> <br>
+
+                <input type="checkbox" name="inscricao" id="inscricao">
+                <label for="inscricao">Deseja receber minha newsletter? </label> <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+            </form>
+
+
 
         </section>
 
